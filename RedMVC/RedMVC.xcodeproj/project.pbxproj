@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1D68D5421D5E911002F618F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D5321D5E911002F618F /* AppDelegate.m */; };
+		A1D68D5721D5E911002F618F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D5621D5E911002F618F /* ViewController.m */; };
+		A1D68D5A21D5E911002F618F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D68D5821D5E911002F618F /* Main.storyboard */; };
+		A1D68D5C21D5E914002F618F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D68D5B21D5E914002F618F /* Assets.xcassets */; };
+		A1D68D5F21D5E914002F618F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D68D5D21D5E914002F618F /* LaunchScreen.storyboard */; };
+		A1D68D6221D5E914002F618F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D6121D5E914002F618F /* main.m */; };
+		A1D68D6C21D5E914002F618F /* RedMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D6B21D5E914002F618F /* RedMVCTests.m */; };
+		A1D68D7721D5E914002F618F /* RedMVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D7621D5E914002F618F /* RedMVCUITests.m */; };
+		A1D68D8C21D743CF002F618F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D8B21D743CF002F618F /* DemoViewController.m */; };
+		A1D68D9521D7465D002F618F /* RedAddIneractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D9421D7465D002F618F /* RedAddIneractor.m */; };
+		A1D68D9921D7731C002F618F /* VIPUnifyService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D9821D7731C002F618F /* VIPUnifyService.m */; };
+		A1D68D9D21D773A5002F618F /* VIPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D9C21D773A5002F618F /* VIPUtil.m */; };
+		A1D68DA021D77627002F618F /* AddService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D9F21D77627002F618F /* AddService.m */; };
+		A1D68DA321D77BC2002F618F /* VipProtocolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68DA221D77BC2002F618F /* VipProtocolItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1D68D6821D5E914002F618F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D68D4721D5E911002F618F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D68D4E21D5E911002F618F;
+			remoteInfo = RedMVC;
+		};
+		A1D68D7321D5E914002F618F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D68D4721D5E911002F618F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D68D4E21D5E911002F618F;
+			remoteInfo = RedMVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1D68D4F21D5E911002F618F /* RedMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D68D5221D5E911002F618F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1D68D5321D5E911002F618F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1D68D5521D5E911002F618F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1D68D5621D5E911002F618F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1D68D5921D5E911002F618F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1D68D5B21D5E914002F618F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1D68D5E21D5E914002F618F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1D68D6021D5E914002F618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D68D6121D5E914002F618F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1D68D6721D5E914002F618F /* RedMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D68D6B21D5E914002F618F /* RedMVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedMVCTests.m; sourceTree = "<group>"; };
+		A1D68D6D21D5E914002F618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D68D7221D5E914002F618F /* RedMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D68D7621D5E914002F618F /* RedMVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedMVCUITests.m; sourceTree = "<group>"; };
+		A1D68D7821D5E914002F618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D68D8921D742B3002F618F /* AddServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddServiceProtocol.h; sourceTree = "<group>"; };
+		A1D68D8A21D743CF002F618F /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		A1D68D8B21D743CF002F618F /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		A1D68D9221D74571002F618F /* VIPProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPProtocols.h; sourceTree = "<group>"; };
+		A1D68D9321D7465D002F618F /* RedAddIneractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedAddIneractor.h; sourceTree = "<group>"; };
+		A1D68D9421D7465D002F618F /* RedAddIneractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedAddIneractor.m; sourceTree = "<group>"; };
+		A1D68D9621D771E3002F618F /* VIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIP.h; sourceTree = "<group>"; };
+		A1D68D9721D7731C002F618F /* VIPUnifyService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPUnifyService.h; sourceTree = "<group>"; };
+		A1D68D9821D7731C002F618F /* VIPUnifyService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPUnifyService.m; sourceTree = "<group>"; };
+		A1D68D9B21D773A5002F618F /* VIPUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPUtil.h; sourceTree = "<group>"; };
+		A1D68D9C21D773A5002F618F /* VIPUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPUtil.m; sourceTree = "<group>"; };
+		A1D68D9E21D77627002F618F /* AddService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddService.h; sourceTree = "<group>"; };
+		A1D68D9F21D77627002F618F /* AddService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddService.m; sourceTree = "<group>"; };
+		A1D68DA121D77BC2002F618F /* VipProtocolItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VipProtocolItem.h; sourceTree = "<group>"; };
+		A1D68DA221D77BC2002F618F /* VipProtocolItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VipProtocolItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1D68D4C21D5E911002F618F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D68D6421D5E914002F618F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D68D6F21D5E914002F618F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1D68D4621D5E911002F618F = {
+			isa = PBXGroup;
+			children = (
+				A1D68D5121D5E911002F618F /* RedMVC */,
+				A1D68D6A21D5E914002F618F /* RedMVCTests */,
+				A1D68D7521D5E914002F618F /* RedMVCUITests */,
+				A1D68D5021D5E911002F618F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1D68D5021D5E911002F618F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D4F21D5E911002F618F /* RedMVC.app */,
+				A1D68D6721D5E914002F618F /* RedMVCTests.xctest */,
+				A1D68D7221D5E914002F618F /* RedMVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D68D5121D5E911002F618F /* RedMVC */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D8E21D744BF002F618F /* Vips */,
+				A1D68D8421D71596002F618F /* RedWorkSpace */,
+				A1D68D5221D5E911002F618F /* AppDelegate.h */,
+				A1D68D5321D5E911002F618F /* AppDelegate.m */,
+				A1D68D5521D5E911002F618F /* ViewController.h */,
+				A1D68D5621D5E911002F618F /* ViewController.m */,
+				A1D68D5821D5E911002F618F /* Main.storyboard */,
+				A1D68D5B21D5E914002F618F /* Assets.xcassets */,
+				A1D68D5D21D5E914002F618F /* LaunchScreen.storyboard */,
+				A1D68D6021D5E914002F618F /* Info.plist */,
+				A1D68D6121D5E914002F618F /* main.m */,
+			);
+			path = RedMVC;
+			sourceTree = "<group>";
+		};
+		A1D68D6A21D5E914002F618F /* RedMVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D6B21D5E914002F618F /* RedMVCTests.m */,
+				A1D68D6D21D5E914002F618F /* Info.plist */,
+			);
+			path = RedMVCTests;
+			sourceTree = "<group>";
+		};
+		A1D68D7521D5E914002F618F /* RedMVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D7621D5E914002F618F /* RedMVCUITests.m */,
+				A1D68D7821D5E914002F618F /* Info.plist */,
+			);
+			path = RedMVCUITests;
+			sourceTree = "<group>";
+		};
+		A1D68D8421D71596002F618F /* RedWorkSpace */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D8821D715C3002F618F /* Service */,
+				A1D68D8721D715B0002F618F /* Interactor */,
+				A1D68D8621D715A8002F618F /* Protocol */,
+				A1D68D8521D7159E002F618F /* View */,
+			);
+			path = RedWorkSpace;
+			sourceTree = "<group>";
+		};
+		A1D68D8521D7159E002F618F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D8A21D743CF002F618F /* DemoViewController.h */,
+				A1D68D8B21D743CF002F618F /* DemoViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1D68D8621D715A8002F618F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D8921D742B3002F618F /* AddServiceProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A1D68D8721D715B0002F618F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D9321D7465D002F618F /* RedAddIneractor.h */,
+				A1D68D9421D7465D002F618F /* RedAddIneractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A1D68D8821D715C3002F618F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D9E21D77627002F618F /* AddService.h */,
+				A1D68D9F21D77627002F618F /* AddService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A1D68D8E21D744BF002F618F /* Vips */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D9A21D7734C002F618F /* util */,
+				A1D68D9221D74571002F618F /* VIPProtocols.h */,
+				A1D68D9621D771E3002F618F /* VIP.h */,
+				A1D68D9721D7731C002F618F /* VIPUnifyService.h */,
+				A1D68D9821D7731C002F618F /* VIPUnifyService.m */,
+			);
+			path = Vips;
+			sourceTree = "<group>";
+		};
+		A1D68D9A21D7734C002F618F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				A1D68D9B21D773A5002F618F /* VIPUtil.h */,
+				A1D68D9C21D773A5002F618F /* VIPUtil.m */,
+				A1D68DA121D77BC2002F618F /* VipProtocolItem.h */,
+				A1D68DA221D77BC2002F618F /* VipProtocolItem.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1D68D4E21D5E911002F618F /* RedMVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D68D7B21D5E914002F618F /* Build configuration list for PBXNativeTarget "RedMVC" */;
+			buildPhases = (
+				A1D68D4B21D5E911002F618F /* Sources */,
+				A1D68D4C21D5E911002F618F /* Frameworks */,
+				A1D68D4D21D5E911002F618F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedMVC;
+			productName = RedMVC;
+			productReference = A1D68D4F21D5E911002F618F /* RedMVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1D68D6621D5E914002F618F /* RedMVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D68D7E21D5E914002F618F /* Build configuration list for PBXNativeTarget "RedMVCTests" */;
+			buildPhases = (
+				A1D68D6321D5E914002F618F /* Sources */,
+				A1D68D6421D5E914002F618F /* Frameworks */,
+				A1D68D6521D5E914002F618F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D68D6921D5E914002F618F /* PBXTargetDependency */,
+			);
+			name = RedMVCTests;
+			productName = RedMVCTests;
+			productReference = A1D68D6721D5E914002F618F /* RedMVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1D68D7121D5E914002F618F /* RedMVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D68D8121D5E914002F618F /* Build configuration list for PBXNativeTarget "RedMVCUITests" */;
+			buildPhases = (
+				A1D68D6E21D5E914002F618F /* Sources */,
+				A1D68D6F21D5E914002F618F /* Frameworks */,
+				A1D68D7021D5E914002F618F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D68D7421D5E914002F618F /* PBXTargetDependency */,
+			);
+			name = RedMVCUITests;
+			productName = RedMVCUITests;
+			productReference = A1D68D7221D5E914002F618F /* RedMVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1D68D4721D5E911002F618F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jackiedeng;
+				TargetAttributes = {
+					A1D68D4E21D5E911002F618F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A1D68D6621D5E914002F618F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A1D68D4E21D5E911002F618F;
+					};
+					A1D68D7121D5E914002F618F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A1D68D4E21D5E911002F618F;
+					};
+				};
+			};
+			buildConfigurationList = A1D68D4A21D5E911002F618F /* Build configuration list for PBXProject "RedMVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1D68D4621D5E911002F618F;
+			productRefGroup = A1D68D5021D5E911002F618F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1D68D4E21D5E911002F618F /* RedMVC */,
+				A1D68D6621D5E914002F618F /* RedMVCTests */,
+				A1D68D7121D5E914002F618F /* RedMVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1D68D4D21D5E911002F618F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D68D5F21D5E914002F618F /* LaunchScreen.storyboard in Resources */,
+				A1D68D5C21D5E914002F618F /* Assets.xcassets in Resources */,
+				A1D68D5A21D5E911002F618F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D68D6521D5E914002F618F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D68D7021D5E914002F618F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D68D4B21D5E911002F618F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D68D5721D5E911002F618F /* ViewController.m in Sources */,
+				A1D68DA021D77627002F618F /* AddService.m in Sources */,
+				A1D68DA321D77BC2002F618F /* VipProtocolItem.m in Sources */,
+				A1D68D6221D5E914002F618F /* main.m in Sources */,
+				A1D68D9D21D773A5002F618F /* VIPUtil.m in Sources */,
+				A1D68D5421D5E911002F618F /* AppDelegate.m in Sources */,
+				A1D68D9921D7731C002F618F /* VIPUnifyService.m in Sources */,
+				A1D68D8C21D743CF002F618F /* DemoViewController.m in Sources */,
+				A1D68D9521D7465D002F618F /* RedAddIneractor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D68D6321D5E914002F618F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D68D6C21D5E914002F618F /* RedMVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D68D6E21D5E914002F618F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D68D7721D5E914002F618F /* RedMVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D68D6921D5E914002F618F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D68D4E21D5E911002F618F /* RedMVC */;
+			targetProxy = A1D68D6821D5E914002F618F /* PBXContainerItemProxy */;
+		};
+		A1D68D7421D5E914002F618F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D68D4E21D5E911002F618F /* RedMVC */;
+			targetProxy = A1D68D7321D5E914002F618F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1D68D5821D5E911002F618F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D68D5921D5E911002F618F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1D68D5D21D5E914002F618F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D68D5E21D5E914002F618F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1D68D7921D5E914002F618F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1D68D7A21D5E914002F618F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1D68D7C21D5E914002F618F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.1.RedMVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1D68D7D21D5E914002F618F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.1.RedMVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1D68D7F21D5E914002F618F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.1.RedMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedMVC.app/RedMVC";
+			};
+			name = Debug;
+		};
+		A1D68D8021D5E914002F618F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.1.RedMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedMVC.app/RedMVC";
+			};
+			name = Release;
+		};
+		A1D68D8221D5E914002F618F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedMVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.1.RedMVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedMVC;
+			};
+			name = Debug;
+		};
+		A1D68D8321D5E914002F618F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedMVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.1.RedMVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedMVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1D68D4A21D5E911002F618F /* Build configuration list for PBXProject "RedMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D68D7921D5E914002F618F /* Debug */,
+				A1D68D7A21D5E914002F618F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D68D7B21D5E914002F618F /* Build configuration list for PBXNativeTarget "RedMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D68D7C21D5E914002F618F /* Debug */,
+				A1D68D7D21D5E914002F618F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D68D7E21D5E914002F618F /* Build configuration list for PBXNativeTarget "RedMVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D68D7F21D5E914002F618F /* Debug */,
+				A1D68D8021D5E914002F618F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D68D8121D5E914002F618F /* Build configuration list for PBXNativeTarget "RedMVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D68D8221D5E914002F618F /* Debug */,
+				A1D68D8321D5E914002F618F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1D68D4721D5E911002F618F /* Project object */;
+}
