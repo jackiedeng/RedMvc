@@ -9,7 +9,7 @@
 #import "AddSerivce2.h"
 #import "VIP.h"
 
-VIPImpMapping(AddServiceProtocol, AddSerivce2, VIP/AddService2)
+VIPRegister(VIP/AddService2,AddSerivce2,AddServiceProtocol)
 @interface AddSerivce2 () <AddServiceProtocol>
 
 @end 

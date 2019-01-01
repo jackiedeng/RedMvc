@@ -9,7 +9,7 @@
 #import "TestServiceImp.h"
 #import "VIP.h"
 
-VIPImpMapping(TestProtocol, TestServiceImp, VIP/TestProtocol)
+VIPRegister(VIP/TestProtocol,TestServiceImp,TestProtocol)
 @interface TestServiceImp ()<TestProtocol>
 
 @end

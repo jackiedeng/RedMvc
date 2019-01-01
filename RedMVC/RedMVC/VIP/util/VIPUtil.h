@@ -13,11 +13,12 @@
 
 #define WriteSection(sectionName) __attribute((used, section("__DATA,"#sectionName" ")))
 
-#define VIPImpMapping(Protocol,ImpClass,accessId) VIPImpMappingSingleton(Protocol,ImpClass,accessId)
-
-#define VIPImpMappingSingleton(Protocol,ImpClass,accessId) char * kImp##ImpClass##key WriteSection(VIPImpSingleton) = ""#Protocol"|"#ImpClass"|"#accessId"";
-
-#define VIPImpMappingPrototype(Protocol,ImpClass,accessId) char * kImp##ImpClass##key WriteSection(VIPImpPrototype) = ""#Protocol"|"#ImpClass"|"#accessId"";
+//唯一id(uri) 实现类名 接口名称
+#define VIPRegister(accessId,ImpClass,Protocol) VIPRegisterSingleton(Protocol,ImpClass,accessId)
+//唯一id(uri) 实现类名 接口名称 （单例模式)
+#define VIPRegisterSingleton(Protocol,ImpClass,accessId) char * kImp##ImpClass##key WriteSection(VIPImpSingleton) = ""#Protocol"|"#ImpClass"|"#accessId"";
+//唯一id(uri) 实现类名 接口名称 （多实例模式)
+#define VIPRegisterPrototype(Protocol,ImpClass,accessId) char * kImp##ImpClass##key WriteSection(VIPImpPrototype) = ""#Protocol"|"#ImpClass"|"#accessId"";
 
 NS_ASSUME_NONNULL_BEGIN
 

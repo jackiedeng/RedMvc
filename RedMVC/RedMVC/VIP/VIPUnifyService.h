@@ -14,10 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface VIPUnifyService : NSObject
 + (instancetype)instance;
 - (id)vipServiceWithProtocol:(Protocol* _Nonnull)protocol
-                   accessId:(NSString* _Nullable)uri;
+                   accessId:(NSString* _Nullable)accessId;
 
 - (void)vipServiceWithProtocolAync:(Protocol* _Nonnull)protocol
-                         accessId:(NSString* _Nullable)uri
+                         accessId:(NSString* _Nullable)accessId
                       ayncCallBack:(void (^)(id _Nullable service))block;
 
 - (BOOL)vipRegisterProtocol:(Protocol* _Nonnull)protocol

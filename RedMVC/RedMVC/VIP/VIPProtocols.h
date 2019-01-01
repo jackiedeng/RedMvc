@@ -2,7 +2,7 @@
 // VIPProtocols.h 
 // 
 // 
-// auto create by vip_auto_scan_protocol.sh on 2019-01-01 - 16:11:00 
+// auto create by vip_auto_scan_protocol.sh on 2019-01-01 - 16:31:52 
 // 
 
 //1 

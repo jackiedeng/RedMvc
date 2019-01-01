@@ -8,7 +8,7 @@
 
 #import "AddService.h"
 
-VIPImpMapping(AddServiceProtocol,AddService,VIP/AddService)
+VIPRegister(VIP/AddService,AddService,AddServiceProtocol)
 @interface AddService ()<AddServiceProtocol,VIPAccessURIDelegate>
 @end
 
