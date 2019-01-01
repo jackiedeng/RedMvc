@@ -1,5 +1,5 @@
 //
-//  RedAddIneractor.h
+//  AddService.h
 //  RedMVC
 //
 //  Created by jackiedeng on 2018/12/29.
@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "RedTestProtocol.h"
-
+#import "VIP.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RedAddIneractor : NSObject
+@interface AddService : NSObject
 
 @end
 

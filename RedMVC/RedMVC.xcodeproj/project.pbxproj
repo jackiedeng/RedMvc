@@ -16,11 +16,14 @@
 		A1D68D6C21D5E914002F618F /* RedMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D6B21D5E914002F618F /* RedMVCTests.m */; };
 		A1D68D7721D5E914002F618F /* RedMVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D7621D5E914002F618F /* RedMVCUITests.m */; };
 		A1D68D8C21D743CF002F618F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D8B21D743CF002F618F /* DemoViewController.m */; };
-		A1D68D9521D7465D002F618F /* RedAddIneractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D9421D7465D002F618F /* RedAddIneractor.m */; };
 		A1D68D9921D7731C002F618F /* VIPUnifyService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D9821D7731C002F618F /* VIPUnifyService.m */; };
 		A1D68D9D21D773A5002F618F /* VIPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D9C21D773A5002F618F /* VIPUtil.m */; };
 		A1D68DA021D77627002F618F /* AddService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68D9F21D77627002F618F /* AddService.m */; };
-		A1D68DA321D77BC2002F618F /* VipProtocolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68DA221D77BC2002F618F /* VipProtocolItem.m */; };
+		A1D68DA321D77BC2002F618F /* VipProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68DA221D77BC2002F618F /* VipProtocolManager.m */; };
+		AEFC89BB21D8B14C00771A5E /* AddSerivce2.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFC89BA21D8B14C00771A5E /* AddSerivce2.m */; };
+		AEFC89C221DA08A600771A5E /* JustDoIt.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFC89C121DA08A600771A5E /* JustDoIt.m */; };
+		AEFC89C921DA0DA400771A5E /* TestServiceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFC89C821DA0DA400771A5E /* TestServiceImp.m */; };
+		AEFC89CD21DA0F7900771A5E /* VIPRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFC89CC21DA0F7900771A5E /* VIPRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +64,6 @@
 		A1D68D8A21D743CF002F618F /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		A1D68D8B21D743CF002F618F /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		A1D68D9221D74571002F618F /* VIPProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPProtocols.h; sourceTree = "<group>"; };
-		A1D68D9321D7465D002F618F /* RedAddIneractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedAddIneractor.h; sourceTree = "<group>"; };
-		A1D68D9421D7465D002F618F /* RedAddIneractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedAddIneractor.m; sourceTree = "<group>"; };
 		A1D68D9621D771E3002F618F /* VIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIP.h; sourceTree = "<group>"; };
 		A1D68D9721D7731C002F618F /* VIPUnifyService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPUnifyService.h; sourceTree = "<group>"; };
 		A1D68D9821D7731C002F618F /* VIPUnifyService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPUnifyService.m; sourceTree = "<group>"; };
@@ -70,8 +71,20 @@
 		A1D68D9C21D773A5002F618F /* VIPUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPUtil.m; sourceTree = "<group>"; };
 		A1D68D9E21D77627002F618F /* AddService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddService.h; sourceTree = "<group>"; };
 		A1D68D9F21D77627002F618F /* AddService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddService.m; sourceTree = "<group>"; };
-		A1D68DA121D77BC2002F618F /* VipProtocolItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VipProtocolItem.h; sourceTree = "<group>"; };
-		A1D68DA221D77BC2002F618F /* VipProtocolItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VipProtocolItem.m; sourceTree = "<group>"; };
+		A1D68DA121D77BC2002F618F /* VipProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VipProtocolManager.h; sourceTree = "<group>"; };
+		A1D68DA221D77BC2002F618F /* VipProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VipProtocolManager.m; sourceTree = "<group>"; };
+		AEFC89B921D8B14C00771A5E /* AddSerivce2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddSerivce2.h; sourceTree = "<group>"; };
+		AEFC89BA21D8B14C00771A5E /* AddSerivce2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddSerivce2.m; sourceTree = "<group>"; };
+		AEFC89BE21DA088600771A5E /* TestProtocolFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocolFile.h; sourceTree = "<group>"; };
+		AEFC89BF21DA089500771A5E /* GoodProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodProtocol.h; sourceTree = "<group>"; };
+		AEFC89C021DA08A600771A5E /* JustDoIt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustDoIt.h; sourceTree = "<group>"; };
+		AEFC89C121DA08A600771A5E /* JustDoIt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustDoIt.m; sourceTree = "<group>"; };
+		AEFC89C321DA08D500771A5E /* vip_auto_scan_protocol.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = vip_auto_scan_protocol.sh; sourceTree = "<group>"; };
+		AEFC89C621DA0D5800771A5E /* TestService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestService.h; sourceTree = "<group>"; };
+		AEFC89C721DA0DA400771A5E /* TestServiceImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestServiceImp.h; sourceTree = "<group>"; };
+		AEFC89C821DA0DA400771A5E /* TestServiceImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestServiceImp.m; sourceTree = "<group>"; };
+		AEFC89CB21DA0F7900771A5E /* VIPRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPRouter.h; sourceTree = "<group>"; };
+		AEFC89CC21DA0F7900771A5E /* VIPRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +135,7 @@
 		A1D68D5121D5E911002F618F /* RedMVC */ = {
 			isa = PBXGroup;
 			children = (
-				A1D68D8E21D744BF002F618F /* Vips */,
+				A1D68D8E21D744BF002F618F /* VIP */,
 				A1D68D8421D71596002F618F /* RedWorkSpace */,
 				A1D68D5221D5E911002F618F /* AppDelegate.h */,
 				A1D68D5321D5E911002F618F /* AppDelegate.m */,
@@ -158,9 +171,8 @@
 		A1D68D8421D71596002F618F /* RedWorkSpace */ = {
 			isa = PBXGroup;
 			children = (
-				A1D68D8821D715C3002F618F /* Service */,
-				A1D68D8721D715B0002F618F /* Interactor */,
-				A1D68D8621D715A8002F618F /* Protocol */,
+				A1D68D8821D715C3002F618F /* Presenter */,
+				A1D68D8621D715A8002F618F /* Interface */,
 				A1D68D8521D7159E002F618F /* View */,
 			);
 			path = RedWorkSpace;
@@ -175,53 +187,80 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		A1D68D8621D715A8002F618F /* Protocol */ = {
+		A1D68D8621D715A8002F618F /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				AEFC89BC21DA085E00771A5E /* test1 */,
 				A1D68D8921D742B3002F618F /* AddServiceProtocol.h */,
+				AEFC89C621DA0D5800771A5E /* TestService.h */,
 			);
-			path = Protocol;
+			path = Interface;
 			sourceTree = "<group>";
 		};
-		A1D68D8721D715B0002F618F /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				A1D68D9321D7465D002F618F /* RedAddIneractor.h */,
-				A1D68D9421D7465D002F618F /* RedAddIneractor.m */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		A1D68D8821D715C3002F618F /* Service */ = {
+		A1D68D8821D715C3002F618F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
 				A1D68D9E21D77627002F618F /* AddService.h */,
 				A1D68D9F21D77627002F618F /* AddService.m */,
+				AEFC89B921D8B14C00771A5E /* AddSerivce2.h */,
+				AEFC89BA21D8B14C00771A5E /* AddSerivce2.m */,
+				AEFC89C721DA0DA400771A5E /* TestServiceImp.h */,
+				AEFC89C821DA0DA400771A5E /* TestServiceImp.m */,
 			);
-			path = Service;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
-		A1D68D8E21D744BF002F618F /* Vips */ = {
+		A1D68D8E21D744BF002F618F /* VIP */ = {
 			isa = PBXGroup;
 			children = (
+				AEFC89CA21DA0EC800771A5E /* router */,
 				A1D68D9A21D7734C002F618F /* util */,
 				A1D68D9221D74571002F618F /* VIPProtocols.h */,
 				A1D68D9621D771E3002F618F /* VIP.h */,
 				A1D68D9721D7731C002F618F /* VIPUnifyService.h */,
 				A1D68D9821D7731C002F618F /* VIPUnifyService.m */,
 			);
-			path = Vips;
+			path = VIP;
 			sourceTree = "<group>";
 		};
 		A1D68D9A21D7734C002F618F /* util */ = {
 			isa = PBXGroup;
 			children = (
+				AEFC89C321DA08D500771A5E /* vip_auto_scan_protocol.sh */,
 				A1D68D9B21D773A5002F618F /* VIPUtil.h */,
 				A1D68D9C21D773A5002F618F /* VIPUtil.m */,
-				A1D68DA121D77BC2002F618F /* VipProtocolItem.h */,
-				A1D68DA221D77BC2002F618F /* VipProtocolItem.m */,
+				A1D68DA121D77BC2002F618F /* VipProtocolManager.h */,
+				A1D68DA221D77BC2002F618F /* VipProtocolManager.m */,
 			);
 			path = util;
+			sourceTree = "<group>";
+		};
+		AEFC89BC21DA085E00771A5E /* test1 */ = {
+			isa = PBXGroup;
+			children = (
+				AEFC89BD21DA086900771A5E /* test2 */,
+				AEFC89BF21DA089500771A5E /* GoodProtocol.h */,
+			);
+			path = test1;
+			sourceTree = "<group>";
+		};
+		AEFC89BD21DA086900771A5E /* test2 */ = {
+			isa = PBXGroup;
+			children = (
+				AEFC89BE21DA088600771A5E /* TestProtocolFile.h */,
+				AEFC89C021DA08A600771A5E /* JustDoIt.h */,
+				AEFC89C121DA08A600771A5E /* JustDoIt.m */,
+			);
+			path = test2;
+			sourceTree = "<group>";
+		};
+		AEFC89CA21DA0EC800771A5E /* router */ = {
+			isa = PBXGroup;
+			children = (
+				AEFC89CB21DA0F7900771A5E /* VIPRouter.h */,
+				AEFC89CC21DA0F7900771A5E /* VIPRouter.m */,
+			);
+			path = router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D68D7B21D5E914002F618F /* Build configuration list for PBXNativeTarget "RedMVC" */;
 			buildPhases = (
+				AEFC89C521DA08EC00771A5E /* Protocol auto scan */,
 				A1D68D4B21D5E911002F618F /* Sources */,
 				A1D68D4C21D5E911002F618F /* Frameworks */,
 				A1D68D4D21D5E911002F618F /* Resources */,
@@ -349,20 +389,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AEFC89C521DA08EC00771A5E /* Protocol auto scan */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Protocol auto scan";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh ./RedMVC/VIP/util/vip_auto_scan_protocol.sh RedMVC/RedWorkSpace/Interface RedMVC/VIP VIPProtocols.h\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1D68D4B21D5E911002F618F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFC89C921DA0DA400771A5E /* TestServiceImp.m in Sources */,
 				A1D68D5721D5E911002F618F /* ViewController.m in Sources */,
 				A1D68DA021D77627002F618F /* AddService.m in Sources */,
-				A1D68DA321D77BC2002F618F /* VipProtocolItem.m in Sources */,
+				A1D68DA321D77BC2002F618F /* VipProtocolManager.m in Sources */,
+				AEFC89C221DA08A600771A5E /* JustDoIt.m in Sources */,
+				AEFC89BB21D8B14C00771A5E /* AddSerivce2.m in Sources */,
+				AEFC89CD21DA0F7900771A5E /* VIPRouter.m in Sources */,
 				A1D68D6221D5E914002F618F /* main.m in Sources */,
 				A1D68D9D21D773A5002F618F /* VIPUtil.m in Sources */,
 				A1D68D5421D5E911002F618F /* AppDelegate.m in Sources */,
 				A1D68D9921D7731C002F618F /* VIPUnifyService.m in Sources */,
 				A1D68D8C21D743CF002F618F /* DemoViewController.m in Sources */,
-				A1D68D9521D7465D002F618F /* RedAddIneractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,8 @@
 //
-//  VipProtocolUtil.h
+//  TestServiceImp.h
 //  RedMVC
 //
-//  Created by jackiedeng on 2018/12/29.
+//  Created by Chao Deng on 2018/12/31.
 //  Copyright © 2018 jackiedeng. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface VipProtocolItem : NSObject
+@interface TestServiceImp : NSObject
 
 @end
 

@@ -11,7 +11,7 @@
 
 @protocol AddServiceProtocol <NSObject>
 @required
-- (int)Adda:(int)a
+- (int)adda:(int)a
           b:(int)b;
 @end
 
